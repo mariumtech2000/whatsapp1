@@ -52,8 +52,15 @@ header{
 	align-items: center;
 	border-bottom: 1px solid grey;
 	width: 420px;
-
-
+}
+#name{
+	margin: 8px;
+}
+#numb{
+	margin: 5px;
+}
+#email{
+	margin: 5px;
 }
 .name{
 	font-weight: bold;
@@ -62,7 +69,7 @@ header{
 }
 .time{
 	text-transform: capitalize;
-	margin-top: 20px;
+	margin-top: 10px;
 	margin-left: 25px;
 	font-size:0.8em; 
 	color: #9a9b9b;                                           
@@ -95,13 +102,10 @@ header{
 }
 
 .center {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-60%, -80%);
-	text-align: center;
-	align-items: center;
-	justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .status{
 	text-align: center;
